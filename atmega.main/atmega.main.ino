@@ -4,7 +4,7 @@
 #include <ArduinoJson.h>
 
 #include "config/config.h"
-#include "BTS7960.h"
+#include "./libraries/BTS7960/src/BTS7960.h"
 
 void interruptHandler();
 void serialMonitorHandler(void *pvParameters);
